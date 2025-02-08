@@ -7,7 +7,7 @@
 - Exploit vulnerabilities generated from tools above.
 # Instruction
 
-We can use scripts located in script directory to install everything automatically
+We can use scripts located in script directory to install everything automatically. You can deploy it either on local or cloud. Here, we installed it on AWS and attached link in the description of this Repository.
 ------
 
 > Important: All the scripts need to run as `root` privileges 
