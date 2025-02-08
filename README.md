@@ -7,7 +7,7 @@
 - Exploit vulnerabilities generated from tools above.
 # Instruction
 
-We can use scripts located in script directory to install everything automatically
+We can use scripts located in script directory to install everything automatically. You can deploy it either on local or cloud. Here, we installed it on AWS and attached link in the description of this Repository.
 ------
 
 > Important: All the scripts need to run as `root` privileges 
@@ -21,8 +21,7 @@ If your PHP version is not support `php-gd`, you may need a latter version. This
 ## `dvwa-full-install.sh`
 
 Fully installing the *DVWA web server*, there would be a phase to prompt you to enter password to **MySQL database** as `root` user. By default, use the same password for `root` user in system. The final result comes up like below:
-
-<p align="center"> <img src="../image/result_final_dvwa.png"> </p>
+<p align="center"> <img src="image/result_final_dvwa.png"> </p>
 
 Also, the status for each phase should be all `OK`
 
@@ -30,6 +29,6 @@ Also, the status for each phase should be all `OK`
 
 Install the basic configuration for ModSecurity. When finished, try to SQLi the web. For example:
 
-<p align="center"> <img src="../image/test_sqli.png"> </p>
+<p align="center"> <img src="image/test_sqli.png"> </p>
 
 Also, the status for final phase should be all `OK`. 
